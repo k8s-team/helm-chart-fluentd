@@ -3,4 +3,4 @@ elasticsearch:
   port: "9200"
   scheme: "http"
   ssl:
-    vrify: "false"
+    verify: "false"
