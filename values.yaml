@@ -1,6 +1,6 @@
 elasticsearch:
-  host: "elasticsearch-service"
-  port: "9200"
-  scheme: "http"
+  host: elasticsearch-service
+  port: 9200
+  scheme: http
   ssl:
-    verify: "false"
+    verify: false
