@@ -27,7 +27,7 @@ spec:
         image: fluent/fluentd-kubernetes-daemonset:v1.3-debian-elasticsearch-1
         env:
           - name:  FLUENT_ELASTICSEARCH_HOST
-            value: "{{ .Values.elasticsearch.host }}"
+            value: {{ .Values.elasticsearch.host }}
           - name:  FLUENT_ELASTICSEARCH_PORT
             value: "{{ .Values.elasticsearch.port }}"
           - name: FLUENT_ELASTICSEARCH_SCHEME
