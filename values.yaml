@@ -1,0 +1,6 @@
+elasticsearch:
+  host: "elasticsearch-service"
+  port: "9200"
+  scheme: "http"
+  ssl:
+    vrify: "false"
